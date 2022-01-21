@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estados",
+  "info": {
+    "singularName": "estado",
+    "pluralName": "estados",
+    "displayName": "Estados"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "no_comenzado",
+        "comenzado",
+        "adelantado",
+        "finalizado"
+      ]
+    }
+  }
+}
